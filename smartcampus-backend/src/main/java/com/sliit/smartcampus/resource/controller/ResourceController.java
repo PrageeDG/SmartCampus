@@ -68,6 +68,7 @@ public class ResourceController {
         );
     }
 
+    
     @GetMapping("/type/{type}")
     public ResponseEntity<ApiResponse<List<ResourceResponseDTO>>> getResourcesByType(@PathVariable ResourceType type) {
         return ResponseEntity.ok(ApiResponse.success("Resources filtered by type successfully", resourceService.getResourcesByType(type)));
