@@ -1,3 +1,4 @@
+
 package com.sliit.smartcampus.resource.entity;
 
 public enum ResourceType {
