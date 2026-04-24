@@ -24,6 +24,7 @@ public class ResourceMapper {
                 .availabilityWindows(dto.getAvailabilityWindows())
                 .build();
     }
+    
 
     public ResourceResponseDTO toDTO(Resource entity) {
         if (entity == null) return null;
