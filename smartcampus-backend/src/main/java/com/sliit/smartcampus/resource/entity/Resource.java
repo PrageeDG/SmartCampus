@@ -22,6 +22,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Resource {
+    
 
     @Id
     private UUID id;
