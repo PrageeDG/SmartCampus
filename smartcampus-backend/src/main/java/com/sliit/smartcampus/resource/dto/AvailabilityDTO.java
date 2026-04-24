@@ -16,3 +16,5 @@ public class AvailabilityDTO {
     private LocalDateTime to;
     private boolean available;
 }
+
+
